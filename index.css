@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    transition: all 0.5s;
+}
+
+body{
+    background-image: linear-gradient(#1D1D1D, #060505);
+    min-height: 100vh;
+    color: #FFF;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    font-family: "Rubik", serif;
+    font-weight: normal;
+}
+
+i[class*="fa-circle-notch"]{
+    font-size: 10rem;
+}
+
+#container{
+    background: #2e2c2c;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+
+.gray{
+    color: gray;
+}
+
+.cyan{
+    color: #36F9D9;
+}
+
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+
+.social{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.social:hover{
+    color: #36F9D9;
+    transform: scale(1.3);
+}
